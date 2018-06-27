@@ -4,9 +4,9 @@ x = gets.chomp
 n = 1
 
 while n <= x.to_i
-    if n<= 25
+    if n<= x.to_i
     (n == 1)
-       puts ("#" * n).rjust(25)
+       puts ("#" * n).rjust(x.to_i)
     else
         break
     end
